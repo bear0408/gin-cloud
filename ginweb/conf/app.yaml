@@ -1,0 +1,14 @@
+app:
+  name: ginCloud
+  port: :8088
+  mode: release
+
+ # newmariadb.mkl.io/oms-system?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
+mysql:
+  conn: omsadmin:Amen2258@tcp(newmariadb.mkl.io)/oms-system?charset=utf8mb4&parseTime=true&loc=Local
+
+redis:
+  host: redis.mkl.io
+  port: 6379
+  password: caicaimima
+  db: 1
